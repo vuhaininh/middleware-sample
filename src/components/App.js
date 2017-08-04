@@ -1,12 +1,12 @@
 import React,{Component} from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/main.scss';
-import Menu from './Menu';
+import UserList from './user_list';
 export default class App extends Component{
   render(){
     return(
-      <div className="main">Here is the React App boilerplate
-        <span className="test">Test</span>
-        <Menu />
+      <div>
+        <UserList />
       </div>
 
     );

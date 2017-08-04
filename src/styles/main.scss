@@ -1,8 +1,12 @@
-$primary-color: #009900;
-
-.main {
-  color:$primary-color;
+.user-list{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-.menu {
-  color: red;
+.user{
+  margin: 10px;
+  a:not([href]):not([tabindex]) {
+      color: #fff;
+  }
+
 }
